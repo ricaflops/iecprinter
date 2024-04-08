@@ -44,7 +44,7 @@ There are 3 configuration switches. See *iecprinter.ino* file for pin mapping #d
 
 Note: Enabling ASCII translation overides Secondary Address selection.
 
-Serial configuration is 9600 bauds, 8 data bits, No parity, one stop bit (8N1).
+Serial interface is configured to 9600 Bauds, 8 Data Bits, No Parity, One Stop Bit (8N1).
 You can experiment with other baudrates by editing the corresponding #define in *iecprinter.ino* file.
 
 ## Limitations
@@ -59,7 +59,7 @@ Another possibility would be to adapt this project to a more capable board. None
 
 ## References
 
-- J. Derogee, [IEC disected](http://www.zimmers.net/anonftp/pub/cbm/programming/serial-bus.pdf)
+- [IEC disected](http://www.zimmers.net/anonftp/pub/cbm/programming/serial-bus.pdf), J. Derogee
 - Serial Port [C64 Wiki](https://www.c64-wiki.com/wiki/Serial_Port)
 - Commodore Bus [Wikipedia](https://en.wikipedia.org/wiki/Commodore_bus)
 
