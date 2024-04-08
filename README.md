@@ -7,7 +7,7 @@ was used by Commodore computers to interface to disk drivers and printers.
 
 This project enable the use of a serial terminal emulator in a modern computer to print on those serial printers via a USB interface.
 
-With a serial terminal emulator it is possible to send direct typed text or a raw file to printers like VIC-1525, MPS-801, MPS-803, etc.
+With a serial terminal emulator it is possible to send typed text or file (see *samples* folder) to printers like VIC-1525, MPS-801, MPS-803, etc.
 
 The on-board LED is used to show the interface busy state.
 When lit the interface is busy printing and will not accept/receive new data from USB.
